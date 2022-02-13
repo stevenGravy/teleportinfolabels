@@ -7,6 +7,13 @@ if [ "$1" == "" ] || [ "$2" == "" ]   ; then
 	exit 1
 fi
 
+# Confirms nmap is available 
+if ! command -v nmap &> /dev/null
+then
+    echo "❓no nmap to confirm"
+    exit
+fi
+
 
 HOST_TO_CHECK=$1
 PORT_TO_CHECK=$2

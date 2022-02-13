@@ -1,10 +1,15 @@
 #!/bin/bash
 
 
+DRIVE=/dev/root
+
+if ! [ "$1" == "" ]; then
+   DRIVE=$1;
+fi
 
 
 
-SPACE_PERCENT=$(df | grep /dev/root | awk '{print $5 }')
+SPACE_PERCENT=$(df | grep $DRIVE | awk '{print $5 }')
 PERCENT=$(echo $SPACE_PERCENT | sed 's/%//')
 
 

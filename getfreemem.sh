@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Confirms nmap is available
+if ! command -v free &> /dev/null
+then
+    echo "❓ mem info unavailable"
+    exit
+fi
 
 
 MEMORY=$(free -m | grep Mem)

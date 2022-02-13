@@ -109,7 +109,7 @@ Unavailable ❌
        - postgresql
      period: 1m```
    
-### Example app resource example
+## Example app resource example
  
    Example
    ```bash

@@ -83,13 +83,12 @@ getavail.sh www.example.com 443
 Ok 🟢
 
 #Now check against a port we don't expect to be available
+```bash
 getavail.sh www.example.com 444
 Unavailable ❌
 ```
 
-### Example database test
-
-   
+### Example database label 
    
 ```yaml
  - name: "postgresql-db"

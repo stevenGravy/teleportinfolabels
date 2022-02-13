@@ -106,7 +106,8 @@ Unavailable ❌
        - sam-rds-postgres-database-1.cmzxvtskm1qh.us-east-1.rds.amazonaws.com
        - 5432
        - postgresql
-     period: 1m```
+     period: 1m
+```
    
 ## Example app resource example
  
@@ -117,6 +118,9 @@ Application       Description Public Address                                Labe
 ----------------- ----------- --------------------------------------------- ----------------------------------------------- 
 jenkinsapp                    jenkinsapp.teleport.example.com        status=Ok 🟢, teleport.dev/origin=config-file
    ```
+   
+ Configure your service like below. 
+   
 ```yaml
   - name: "jenkinsapp"
     uri: "http://localhost:8888"

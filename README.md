@@ -106,7 +106,7 @@ Unavailable ❌
        - sam-rds-postgres-database-1.cmzxvtskm1qh.us-east-1.rds.amazonaws.com
        - 5432
        - postgresql
-     period: 1m
+     period: 15m
 ```
    
 ## Example app resource example

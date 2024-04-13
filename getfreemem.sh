@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Confirms nmap is available
+# Confirms free is available
 if ! command -v free &> /dev/null
 then
     echo "❓ mem info unavailable"

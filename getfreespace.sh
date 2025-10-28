@@ -9,7 +9,7 @@ fi
 
 
 
-SPACE_PERCENT=$(df | grep $DRIVE | awk '{print $5 }')
+SPACE_PERCENT=$(df | grep -w $DRIVE | awk '{print $5 }')
 PERCENT=$(echo $SPACE_PERCENT | sed 's/%//')
 
 

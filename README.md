@@ -1,3 +1,6 @@
+This repo has been moved to https://github.com/gravitational/rev-tech/tree/main/tools/teleportinfolabels. Any future updates will be published there.
+
+
 # teleportinfolabels
 Scripts and howtos for providing resource information and with easily identifable colors. You can call a program or script program as part of the Teleport label configuration.  In addition to regular text you can also display unicode chars that include visually capturing colors like 🟡 🟢 ❌.   Please check out these examples and offer any feedback!
 
